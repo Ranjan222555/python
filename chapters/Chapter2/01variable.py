@@ -5,4 +5,4 @@ b=3
 c= 56.7
 d= "Ranjan"
 
-print(b-a)
+print(b-a,d)
