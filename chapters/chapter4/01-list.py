@@ -17,6 +17,8 @@ print(name)
 print(name[4])
 
 '''
+
+'''
 number=[1,34,22,4,222,4321,33,2,4]
 
 # number.sort()
@@ -27,4 +29,4 @@ print(number.pop(2))
 num=number.pop(2)
 
 print(num)
-
+'''
