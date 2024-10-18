@@ -11,12 +11,12 @@ print(name[0:3])
 
  # list methods 
 '''
-name.append("python")
+name.append("python")  # append means add some item
 print(name)
 
 print(name[4])
-
 '''
+
 '''
 number=[1,34,22,4,222,4321,33,2,4]
 
