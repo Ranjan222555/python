@@ -7,6 +7,7 @@ import random
 
 '''
 computer= random.choice( [1, 0, -1])
+# random is creat random number and randit is creat random num from to to like range(1, 77), randit(1, 86)
 
 your_input=input("Enter your choice: ")
 your_dict={
@@ -27,16 +28,13 @@ print(f"You chose: {revers_disct[you_chose]}\nComputer chose: {revers_disct[comp
 if (computer==you_chose):
     print("its Draw!")
 else:
-    '''
     # its a shorter form of code 
-    
+    '''
     if ((computer - you_chose)== -1 or (computer - you_chose)== 2):
         print("You Lose!")
     else:
         print("you Win!")
-    
     '''
-      
     if (computer==-1 and you_chose==1):
         print("You Win!")
         
